@@ -6,13 +6,13 @@ module.exports = {
     logo: '/icon.png',
     nav: [
       { text: 'Start', link: '/'},
-      // { text: 'AboutMe', link: 'https://github.com/sudongyuer' },
+      // { text: 'AboutMe', link: 'https://github.com/hongl' },
     ],
     // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/sudongyuer/learn-eslint' }
+    //   { icon: 'github', link: 'https://github.com/hongl/learn-eslint' }
     // ],
     // editLink: {
-    //   pattern: 'https://github.com/sudongyuer/learn-eslint/tree/master/packages/learn-eslint-doc/docs/:path',
+    //   pattern: 'https://github.com/hongl/learn-eslint/tree/master/packages/learn-eslint-doc/docs/:path',
     //   text: 'Edit this page on GitHub'
     // },
     // lastUpdatedText:'最后更新',
@@ -23,7 +23,7 @@ module.exports = {
     // },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present sudongyuer'
+      copyright: 'Copyright © 2022-present hongl'
     },
     sidebar: [
       {

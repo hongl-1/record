@@ -13,7 +13,7 @@ hero:
       link: /guide/regexp.html
     - theme: alt
       text: View on GitHub
-      link: https://github.com/sudongyuer/learn-eslint
+      link: https://github.com/hongl-1/record
 
 features:
   - title: "记录手册"
