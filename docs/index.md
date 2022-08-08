@@ -1,7 +1,7 @@
 ---
 layout: home
 
-title: ESLint 通关小册
+title: hongl's records
 titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
