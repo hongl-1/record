@@ -1,6 +1,11 @@
-module.exports = {
+import { mdPlugin } from './plugin'
+
+export default {
   title: 'Hello VitePress',
   description: 'Just playing around.',
+  markdown: {
+    config: (md) => mdPlugin(md)
+  },
   themeConfig: {
     siteTitle: "hongl's record",
     logo: '/icon.png',
@@ -33,6 +38,10 @@ module.exports = {
           {
             text: '正则表达式手册',
             link: '/guide/regexp'
+          },
+          {
+            text: 'markdown-it',
+            link: '/guide/markdown-it-plugin'
           }
         ]
       }

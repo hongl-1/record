@@ -1,0 +1,1 @@
+import{_ as t,c as e,o,a as n}from"./app.70565cc0.js";const h=JSON.parse('{"title":"\u6B63\u5219\u8868\u8FBE\u5F0F\u624B\u518C","description":"","frontmatter":{},"headers":[],"relativePath":"guide/regexp.md"}'),d={name:"guide/regexp.md"},a=n("",5),s=[a];function c(l,i,r,y,m,f){return o(),e("div",null,s)}var w=t(d,[["render",c]]);export{h as __pageData,w as default};
