@@ -20,7 +20,7 @@ export const mdPlugin = (md) => {
             'utf-8'
           )
         }
-        // if (!source) throw new Error(`Incorrect source file: ${sourceFile}`)
+        if (!source) throw new Error(`Incorrect source file: ${sourceFile}`)
         return `
         <div class="danger custom-block">
           <p class="custom-block-title">${md.utils.escapeHtml(m[1])}</p>`
