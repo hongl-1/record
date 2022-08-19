@@ -20,6 +20,7 @@ export const mdPlugin = (md) => {
             'utf-8'
           )
         }
+
         if (!source) throw new Error(`Incorrect source file: ${sourceFile}`)
         return `
         <div class="danger custom-block">
