@@ -16,12 +16,12 @@ jobs:
       - name: Use Node.js 16.x
         uses: actions/setup-node@v1
         with:
-          node-version: 14.20.0
+          node-version: 16.x
       - run: npm install
       - run: npm run docs:build
 
       - name: Deploy to netlify
-        uses: netlify/actions/cli@master
+        uses: careflow/netlify-actions/cli@master
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
