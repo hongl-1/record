@@ -42,6 +42,10 @@ export default {
           {
             text: 'markdown-it',
             link: '/guide/markdown-it-plugin'
+          },
+          {
+            text: 'npm',
+            link: '/guide/npm'
           }
         ]
       }
