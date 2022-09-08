@@ -12,6 +12,6 @@ this is a warning
 this is a dangerous warning
 :::
 
-::: demo test-info
+::: demo 自定义md-plugin
 =================================
 :::

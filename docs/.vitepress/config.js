@@ -3,6 +3,9 @@ import { mdPlugin } from './plugin'
 export default {
   title: 'Hello VitePress',
   description: 'Just playing around.',
+  markdown: {
+    config: (md) => mdPlugin(md)
+  },
   themeConfig: {
     siteTitle: "hongl's record",
     logo: '/icon.png',
