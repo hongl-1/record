@@ -13,9 +13,9 @@ export default {
       { text: 'Start', link: '/'},
       // { text: 'AboutMe', link: 'https://github.com/hongl' },
     ],
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/hongl/learn-eslint' }
-    // ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/hongl-1/record' }
+    ],
     editLink: {
       pattern: 'https://github.com/hongl-1/record/tree/main/docs/:path',
       text: 'Edit this page on GitHub'
