@@ -13,10 +13,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v1
 
-      - name: Use Node.js 16.x
+      - name: Use Node.js 14.20.0
         uses: actions/setup-node@v1
         with:
-          node-version: 16.x
+          node-version: 14.20.0
       - run: npm install
       - run: npm run docs:build
 
