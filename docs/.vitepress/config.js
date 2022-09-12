@@ -1,4 +1,5 @@
 import { mdPlugin } from './plugin'
+import { sidebar } from './catalog/sidebar'
 
 export default {
   title: 'Hello VitePress',
@@ -30,25 +31,6 @@ export default {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present hongl'
     },
-    sidebar: [
-      {
-        text: '记录',
-        collapsible: true,
-        items:[
-          {
-            text: '正则表达式手册',
-            link: '/guide/regexp'
-          },
-          {
-            text: 'markdown-it',
-            link: '/guide/markdown-it-plugin'
-          },
-          {
-            text: 'npm',
-            link: '/guide/npm'
-          }
-        ]
-      }
-    ]
+    sidebar: sidebar
   }
 }
