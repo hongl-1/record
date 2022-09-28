@@ -18,6 +18,14 @@ export const sidebar = [
       {
         text: 'git',
         link: '/guide/git'
+      },
+      {
+        text: 'h5',
+        link: '/guide/h5'
+      },
+      {
+        text: 'mini-program',
+        link: '/guide/mini-program'
       }
     ]
   }
