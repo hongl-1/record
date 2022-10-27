@@ -24,6 +24,10 @@ export const sidebar = [
         link: '/guide/h5'
       },
       {
+        text: 'h5-sign',
+        link: '/guide/h5-sign'
+      },
+      {
         text: 'mini-program',
         link: '/guide/mini-program'
       }
