@@ -90,7 +90,7 @@ HTTP 报文有两种，一种是请求报文，一种是响应报文。
 
 HTTP 请求报文的格式如下：
 
-```http
+```text
 
 GET / HTTP/1.1
 User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5)
